@@ -1,14 +1,10 @@
-"Es handelt sich hier um eine Auswertung der QSOs von DL0ABT während
-der Teilnahme am IARU Region 1 SSB Fieldday am 7-8.9.2019: Op, Bänder,
-QSO-Raten.
+## Was gibt es hier?
 
-Ich habe es leider nicht geschafft, irgendwelche Auswertungen über
-Multiplikatoren zu machen.
+Es handelt sich hier um eine Auswertung der Funkverbindungen der
+Amateurfunk-Kllubstation DL0ABT während der Teilnahme am IARU Region 1
+SSB Fieldday am 7-8.9.2019: Op, Bänder, QSO-Raten.
 
-Es handelt sich um ein [Jupyter](https://jupyter.org/) Notebook
-(entwickelt und gerendert mit jupyter lab 1.1.3). Außer Jupyter und
-[Python](https://docs.python.org/3/) habe ich
-[Matplotlib](https://matplotlib.org/index.html) benutzt.
+Die fertig formatierte Auswertung gibt es in der Datei [2019-ssb-fd.pdf](2019-ssb-fd.pdf).
 
 ## Open Source
 
