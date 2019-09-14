@@ -1,0 +1,30 @@
+"Es handelt sich hier um eine Auswertung der QSOs von DL0ABT während
+der Teilnahme am IARU Region 1 SSB Fieldday am 7-8.9.2019: Op, Bänder,
+QSO-Raten.
+
+Ich habe es leider nicht geschafft, irgendwelche Auswertungen über
+Multiplikatoren zu machen.
+
+Es handelt sich um ein [Jupyter](https://jupyter.org/) Notebook
+(entwickelt und gerendert mit jupyter lab 1.1.3). Außer Jupyter und
+[Python](https://docs.python.org/3/) habe ich
+[Matplotlib](https://matplotlib.org/index.html) benutzt.
+
+## Open Source
+
+Copyright © 2019 [DJ3EI](mailto:dj3ei@famsik.de)
+
+Dieses Notebook ist freie Software. Sie können es unter den
+Bedingungen der GNU General Public License, wie von der Free Software
+Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder
+gemäß Version 3 der Lizenz oder (wenn Sie das wünschen) jeder späteren
+Version.
+
+Die Veröffentlichung dieses Notebooks erfolgt in der Hoffnung, daß es
+Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne
+die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR
+EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public
+License.
+
+Sie erhalten ein Exemplar der GNU General Public License von
+<http://www.gnu.org/licenses/>.
