@@ -13138,9 +13138,9 @@ auch komplett <a href="https://github.com/aknrdureegaesr/iaru-reg1-fd-dl0abt-201
 <span class="c1"># It knows nothing about ADIF data types or enumerations,</span>
 <span class="c1"># so it is fairly simple.</span>
 
-<span class="c1"># But it does correcly handle things like</span>
+<span class="c1"># But it does correcly handle things like:</span>
 <span class="c1"># &lt;notes:66&gt;In this QSO, we discussed ADIF and in particular the &lt;eor&gt; marker.</span>
-<span class="c1"># so, in that sense, it&#39;s somewhat sophisticated.</span>
+<span class="c1"># So, in that sense, this parser is somewhat sophisticated.</span>
 
 <span class="c1"># Main result of parsing: List of QSOs.</span>
 <span class="c1"># Each QSO is one Python dict.</span>
@@ -13152,8 +13152,8 @@ auch komplett <a href="https://github.com/aknrdureegaesr/iaru-reg1-fd-dl0abt-201
 <span class="c1"># The ADIF file header keys and values, if any. (Not needed by this notebook.)</span>
 <span class="n">adif_headers</span> <span class="o">=</span> <span class="p">{}</span>
 
-<span class="n">header_field_re</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&lt;((eoh)|([\w\d]+)\:(\d+)(\:[^&gt;]+)?)&gt;&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
-<span class="n">field_re</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&lt;((eor)|([\w\d]+)\:(\d+)(\:[^&gt;]+)?)&gt;&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+<span class="n">header_field_re</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&lt;((eoh)|(\w+)\:(\d+)(\:[^&gt;]+)?)&gt;&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
+<span class="n">field_re</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&lt;((eor)|(\w+)\:(\d+)(\:[^&gt;]+)?)&gt;&#39;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">)</span>
 
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;DL0ABT-ssb-fd-2019-09.adif.adi&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">adif_file</span><span class="p">:</span>
     <span class="n">adif</span> <span class="o">=</span> <span class="n">adif_file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
