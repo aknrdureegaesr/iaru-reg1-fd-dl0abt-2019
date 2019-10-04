@@ -1,7 +1,7 @@
 ## Was gibt es hier?
 
 Es handelt sich hier um eine Auswertung der Funkverbindungen der
-Amateurfunk-Kllubstation DL0ABT während der Teilnahme am IARU Region 1
+Amateurfunk-Klubstation DL0ABT während der Teilnahme am IARU Region 1
 SSB Fieldday am 7-8.9.2019: Op, Bänder, QSO-Raten.
 
 Die fertig formatierte Auswertung gibt es in der Datei [2019-ssb-fd.pdf](2019-ssb-fd.pdf).
